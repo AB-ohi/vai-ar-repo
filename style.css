@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+   
+}
+/* -----nav style----- */
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+/* -----nav logo or name----- */
+.logo{
+    font-weight: 800;
+    font-size: 34px; 
+    
+}
+/* -----nav options----- */
+.nav-list ul{
+    display: flex;
+    gap: 70px;
+    
+}
+
+.nav-list ul li{
+    list-style: none;
+}
+.nav-list ul a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;;
+}
+
+/* banner topic */
+.company-details{
+    display: flex;
+    row-gap: 33px;
+    justify-content: center;
+    text-align: center;
+}
+.details-box{
+    width: 862px;
+    margin-top: 102px;
+    
+}
+.details-box h1{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+.details-box p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 33px 0px 30px 0px;
+}
+/* Explore More btn style */
+.explore-btn{
+    padding: 20px 25px;
+    
+    border: none;
+    background: #FF900E;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.explore-btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* banner img style */
+
+.banner-img{
+    display: flex;
+    justify-content: center;
+}
+.banner-img img{
+    margin: 50px 0px 45px 0px;
+}
+
+/* quick-list style*/
+
+.quick-list{
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 73px;
+    
+}
+.quick-list-img{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2,1fr);
+}
+.quick-list-container{
+    width: 537px;
+}
+.quick-list-container h1{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    margin-bottom: 10px;
+}
+.quick-list-container h1 strong{
+    color: #131313;
+}
+.quick-list-container h1 span{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+.quick-list-container p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 10px;
+}
+
+
+/* facility-details section */
+
+
+.facilitys{
+    display: flex;
+    justify-content: center;
+    margin-top: 138px;
+}
+.convenience{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 146px;
+    width: 1442px;
+}
+
+.facility-details h1{
+    border-left: 5px solid #FF900E;
+    width: 468px;
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 23px;
+}
+.facility-details p{
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 24px 0px 30px 0px;
+}
+
+.facility{
+    width: 586px;
+    height: 171px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.facility h2{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 33px 0px 0px 30px;
+}
+.facility p{
+    padding: 10px 0px 0px 30px;
+    width: 514px;
+    height: 111px;
+}
+.experience-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.explore-experience-btn{
+    border: none;
+    background-color: #FF900E;
+    border-radius: 8px;
+}
+.explore-experience-btn h1{
+    font-weight: 700;
+font-size: 65px;
+color: #FFFFFF;
+}
+
+.explore-experience-btn p{
+    font-weight: 500;
+font-size: 25px;
+color: #FFFFFF;
+}
+.btn-content{
+    padding: 46px;
+}
+.btn-content a{
+    text-decoration: none;
+}
+
+/* facts container */
+.achievement-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 133px;
+}
+.company-facts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1442px;
+}
+.facts h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.facts p{
+    margin-top: 24px;
+    width: 542px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.achievement{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.achievement-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 241.83px;
+    height: 241.83px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+
+
+
+/* sponsor company */
+.sponsor-container{
+    display: flex;
+    justify-content: center;
+}
+.sponsor-header{
+    width: 542px;
+    height: 129px;
+}
+.sponsor-header h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.sponsor-header p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+.sponsor-company{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.sponsor{
+    text-align: center;
+    margin-top: 180px;
+}
+.sponsor-img{
+    filter: grayscale(100%);
+}
+
+
+
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    margin: 110px 0px;
+}
+
+.footer p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    padding: 40px 410px;
+}
+
+
+/* ---------Responsive Website---------- */
+
+
+
+@media screen and (max-width: 576px){
+    /* ----responsive nave------ */
+    .nav-list ul{
+        flex-direction: column;
+    }
+    .nav-list{
+        margin-top: 10px;
+    }
+    .nav{
+        flex-direction: column;
+
+    }
+    /* .details-box{
+        height: 0px;
+        width: 0px;
+    } */
+    .logo{
+        font-weight: 800;
+        font-size: 20px; 
+    }
+
+    
+    .nav-list ul{
+        padding-left: 0px;
+        gap: 20px;
+        
+    }
+    .nav-list ul li a{
+        display: flex;
+        justify-content: center;
+    }
+    .details-box{
+        margin-top: 30px;
+    }
+    .details-box h1{
+        font-weight: 600;
+        font-size: 35px;
+        text-align: center;
+
+    }
+    .details-box p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #727272;
+        text-align: center;
+        margin: 33px 10px 30px 10px;
+    }
+    .explore-btn{
+       /* margin-left: 47px; */
+       justify-content: center;
+    }
+    .banner-img img{
+        width: 300px;
+        height: auto;
+    }
+    .quick-list-container h1 {
+
+        font-size: 30px;
+
+    }
+    .quick-list-container {
+        width: auto;
+        margin-left: 17px;
+    }
+    .quick-list-img {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .quick-list{
+        flex-direction: column-reverse
+    }
+    .convenience{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    .facility{
+        width: auto;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+    
+    .facility-details h1{
+        font-size: 30px;
+        width: 300px;
+    }
+   .facility-details p{
+        margin-left: 10px;
+   }
+   .facility p{
+        width: 300px;
+
+    }
+    .facility h2 {
+        padding: 20px 0px 0px 30px;
+
+    }
+    .facilitys-banner img{
+        width: 390px;
+    }
+    .explore-experience-btn h1 {
+        font-size: 40px;
+
+    }
+    .btn-content {
+        padding: 25px;
+    }
+    
+   
+    .achievement {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 50px
+    }
+    .achievement-container{
+        justify-content: space-around
+    }
+    .facts h1{
+        margin-left: 10px;
+    }
+    .facts p{
+        width: auto;
+        margin-left: 20px;
+    }
+
+    .sponsor{
+        margin-top: 90px;
+
+    }
+    .sponsor-company {
+        margin-top: 40px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer p {
+        text-align: center;
+        padding: 20px 0px;
+    }
+}
